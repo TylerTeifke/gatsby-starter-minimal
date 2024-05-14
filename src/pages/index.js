@@ -5,6 +5,10 @@ const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
       <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" placeholder="John" required autofocus></input>
+        </p>
     </Layout>
   )
 }
