@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, children }) => {
         <h1>{pageTitle}</h1>
         {children}
       </main>
-      <button className={button}>{children}</button>
+      <button className={button}>Click Me</button>
     </div>
   )
 }
