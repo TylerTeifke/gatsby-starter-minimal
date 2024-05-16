@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { container } from './layout.module.css'
+import { container, button } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -14,9 +14,12 @@ const Layout = ({ pageTitle, children }) => {
       <main>
         <h1>{pageTitle}</h1>
         {children}
+        <button className={button}>Click Me</button>
       </main>
     </div>
   )
 }
+
+
 
 export default Layout

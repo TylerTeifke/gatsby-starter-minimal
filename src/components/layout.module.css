@@ -1,5 +1,11 @@
 .container {
     margin: auto;
     max-width: 500px;
-    font-family: cursive;
+    font-family: sans-serif;
   }
+
+.button {
+  padding-right: 2rem;
+  font-family: cursive;
+  color: brown;
+}
