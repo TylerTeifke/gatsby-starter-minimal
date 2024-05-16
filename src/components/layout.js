@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import { container, button } from './layout.module.css'
+import { container, button, label } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
   return (
@@ -20,4 +20,11 @@ const Layout = ({ pageTitle, children }) => {
   )
 }
 
+const Label = ({children}) => {
+  return (
+    <div className={label}>{children}</div>
+  )
+}
+
 export default Layout
+export {Label}
