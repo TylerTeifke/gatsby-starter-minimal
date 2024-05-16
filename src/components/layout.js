@@ -26,4 +26,4 @@ const Button = (children) => {
 }
 
 export default Layout
-export default Button
+export {Button}
