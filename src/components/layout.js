@@ -14,12 +14,16 @@ const Layout = ({ pageTitle, children }) => {
       <main>
         <h1>{pageTitle}</h1>
         {children}
-        <button className={button}>Click Me</button>
       </main>
     </div>
   )
 }
 
-
+const Button = (children) => {
+  return (
+    <button className={button}>{children}</button>
+  )
+}
 
 export default Layout
+export default Button

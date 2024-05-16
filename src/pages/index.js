@@ -1,5 +1,6 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import Button from '../components/layout'
 
 const IndexPage = () => {
   return (
@@ -39,6 +40,9 @@ const IndexPage = () => {
             <textarea name="message" id="message" cols="30" rows="10" 
             placeholder="Type your message here"></textarea>
         </fieldset>
+        <Button>
+            Click Me
+        </Button>
     </Layout>
   )
 }
