@@ -8,7 +8,7 @@ const IndexPage = () => {
       <p>I'm making this by following the Gatsby Tutorial.</p>
 
       <p>
-            <Label>First Name</Label>
+            <Label labelName="firstName"></Label>
             <input type="text" name="firstName" id="firstName" placeholder="John" required autofocus></input>
       </p>
       <p>

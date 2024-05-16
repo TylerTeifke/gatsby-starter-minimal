@@ -20,9 +20,9 @@ const Layout = ({ pageTitle, children }) => {
   )
 }
 
-const Label = ({children}) => {
+const Label = ({labelName}) => {
   return (
-    <div className={label}>{children}</div>
+    <label className={label} for={labelName}>{labelName}</label>
   )
 }
 
