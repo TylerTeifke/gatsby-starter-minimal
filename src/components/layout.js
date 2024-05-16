@@ -15,15 +15,9 @@ const Layout = ({ pageTitle, children }) => {
         <h1>{pageTitle}</h1>
         {children}
       </main>
+      <button className={button}>{children}</button>
     </div>
   )
 }
 
-const Button = (children) => {
-  return (
-    <button className={button}>{children}</button>
-  )
-}
-
 export default Layout
-export {Button}
