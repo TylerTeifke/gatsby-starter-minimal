@@ -2,6 +2,8 @@ import * as React from 'react'
 import Layout from '../components/layout'
 import Label from '../components/layout'
 
+//Code for the form gotten from https://www.youtube.com/watch?v=mJgBOIoGihA
+
 const IndexPage = () => {
   return (
     <Layout pageTitle="Home Page">
